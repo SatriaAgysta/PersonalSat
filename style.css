@@ -9,7 +9,7 @@
 body
 {
     min-height: 90vh;
-    background-image: url(gg.jpg);
+    background-color: rgb(145, 115, 82);
 }
 header
 {
@@ -31,7 +31,7 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background-color: rgb(27, 19, 84);
+    background-color: rgb(51, 24, 12);
     border-radius: 20px;
     padding-left: 8px;
     padding-right: 8px;
@@ -54,7 +54,7 @@ header ul li a
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
-    background-color: rgb(27, 19, 84);
+    background-color: rgb(51, 24, 12);
 }
 header ul li a:hover,
 header ul li a:active
@@ -101,7 +101,7 @@ section img
 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color: rgb(27, 19, 84);
+    color:rgb(51, 24, 12);
 }
 .sec p
 {
@@ -123,24 +123,24 @@ section img
 }
 img {
     border-radius: 13%;
-    height: 450px;
-    width: 450px;
+    height: 380px;
+    width: 380px;
 }
 .main-content {
     padding: 10px;
 }
 .main-content h2 {
-    color: rgb(27, 19, 84);
-    font-size: 50px;
+    color:rgb(51, 24, 12);
+    font-size: 40px;
 }
 .content {
-    min-height: 100vh;
+    min-height: 115vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 footer {
-  background-color: #0d0c52;
+  background-color:rgb(51, 24, 12);
   height: auto;
   width: 100vw;
   font-family: "Open Sans";
@@ -203,4 +203,34 @@ footer {
   text-transform: uppercase;
   opacity: 4;
   font-weight: 200;
+}
+
+.nav {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  .logo {
+    width: 250px;
+    margin-left: -50px;
+    height: 35%;
+  }
+  .content {
+    margin-bottom: 200px;
+    min-height:5vh ;
+  }
+  .container {
+    display: grid;
+    justify-content:center;
+    padding-bottom: 50px;
+    padding-left: 240px;
+    margin-top: -200px;
+  }
+  footer {
+    width: 600px;
+  }
+  .footer-bottom {
+    width: 600px;
+  }
+
 }

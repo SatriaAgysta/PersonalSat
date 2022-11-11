@@ -8,8 +8,8 @@
 }
 body
 {
-    min-height: 90vh;
-    background-image: url(gg.jpg);
+     min-height: 50vh;
+     background-color: rgb(145, 115, 82);
 }
 header
 {
@@ -31,7 +31,7 @@ header .logo
     font-size: 2em;
     text-transform: uppercase;
     letter-spacing: 1px;
-    background-color: rgb(27, 19, 84);
+    background-color: rgb(51, 24, 12);
     border-radius: 20px;
     padding-left: 8px;
     padding-right: 8px;
@@ -54,7 +54,7 @@ header ul li a
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
-    background-color: rgb(27, 19, 84);
+    background-color: rgb(51, 24, 12);
 }
 header ul li a:hover,
 header ul li a:active
@@ -102,7 +102,7 @@ section img
 {
     font-size: 2.5em;
     margin-bottom: 10px;
-    color: rgb(27, 19, 84);
+    color: rgb(51, 24, 12);
 }
 .sec p
 {
@@ -129,7 +129,7 @@ section img
     padding-left: 30px;
 }
 .main-content h2 {
-    color: rgb(27, 19, 84);
+    color: rgb(51, 24, 12);
 }
 a { 
     color: #ffffff; 
@@ -167,10 +167,10 @@ td {
     color: #fff;
 }
 .text-left { text-align: left; }
-tr:nth-child(odd) { background-color: rgb(27, 19, 84); }
+tr:nth-child(odd) { background-color:rgb(51, 24, 12); }
   
 tr.tr-header {
-    background-color: rgb(27, 19, 84);
+    background-color: rgb(51, 24, 12);;
     height: 50px;
 }
 .container {
@@ -181,7 +181,7 @@ tr.tr-header {
     padding-top: 30px;
 }
 footer {
-  background-color: #0d0c52;
+  background-color: rgb(51, 24, 12);;
   height: auto;
   width: 100vw;
   font-family: "Open Sans";
@@ -244,4 +244,34 @@ footer {
   text-transform: uppercase;
   opacity: 4;
   font-weight: 200;
+}
+@media screen and (max-width: 600px) {
+  body {
+    justify-content:center;
+  }
+  .content {
+    margin-top: 200px;
+    width: 100vh;
+    margin-right: 200vh;
+  }
+  section {
+    display: grid;
+    margin-left: -10px;
+  }
+  .container {
+    display:list-item;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+  }
+  footer {
+    width: 100vh;
+    margin-top: 410px;
+  }
+  .footer-bottom {
+    width: 100vh;
+  }
+  content {
+    display: grid;
+  }
 }
